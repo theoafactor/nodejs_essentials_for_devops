@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_intro",
+  "version": "1.0.0",
+  "description": "a simple demo node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "begin": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoafactor/demonode.git"
+  },
+  "author": "Olu Adeyemo]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoafactor/demonode/issues"
+  },
+  "homepage": "https://github.com/theoafactor/demonode#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "nodemon": "^3.1.2"
+  }
+}
